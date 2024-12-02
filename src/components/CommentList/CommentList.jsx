@@ -3,7 +3,7 @@ import './CommentList.scss';
 
 export const CommentList = ({ comments }) => (
   <div className="CommentList">
-    {comments.lenght === 0 ? (
+    {comments.length === 0 ? (
       <b data-cy="NoCommentsMessage">No comments yet</b>
     ) : (
       <ul className="CommentList__items">
